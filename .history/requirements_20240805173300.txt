@@ -1,0 +1,9 @@
+json
+requests
+numpy
+pandas
+seaborn
+matplotlib
+plotly
+ipywidgets
+IPython
