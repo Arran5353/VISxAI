@@ -2,8 +2,6 @@ name: env
 channels:
   - defaults
   - conda-forge
-  - anaconda
-  - bioconda
 dependencies:
   - python=3.11.5
   - asttokens==2.4.1
@@ -21,6 +19,7 @@ dependencies:
   - jedi==0.19.1
   - jupyterlab_widgets==3.0.11
   - kiwisolver==1.4.5
+  - matplotlib==3.9.0
   - matplotlib-inline==0.1.7
   - numpy==2.0.1
   - packaging==24.1
@@ -39,18 +38,11 @@ dependencies:
   - requests==2.32.3
   - seaborn==0.13.2
   - six==1.16.0
-  # - stack-data==0.6.3
+  - stack-data==0.6.3
   - tenacity==9.0.0
   - traitlets==5.14.3
   - typing_extensions==4.12.2
+  - tzdata==2024.1
   - urllib3==2.2.2
   - wcwidth==0.2.13
   - widgetsnbextension==4.0.11
-  - pip:
-    - stack-data==0.6.3
-    - tzdata==2024.1
-    - matplotlib==3.9.0
-
-
-
-    
